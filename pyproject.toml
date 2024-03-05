@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "drawbot-scripts"
+version = "0.1.0"
+description = ""
+authors = ["Roberto Arista <arista.rob@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+drawBot = { git = "https://github.com/typemytype/drawbot.git" }
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
